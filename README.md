@@ -18,7 +18,6 @@ An interactive healthcare spend and utilization dashboard built in Excel using *
 ### Demographics
 ![Demographics](Demographics.png)
 
-> Note: If your current filename is `Phramacy_Claims.png`, either rename it to `Pharmacy_Claims.png` in GitHub or update the image link above to match the exact filename.
 
 ## Key Insights Surfaced
 This dashboard is designed to surface payer-style insights such as:
