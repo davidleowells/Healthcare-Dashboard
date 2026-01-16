@@ -5,6 +5,9 @@ An interactive healthcare spend and utilization dashboard built in Excel using *
 
 > **Synthetic claims dashboard:** This project uses a synthetic/illustrative claims environment for portfolio demonstration (no real patient data).
 
+## Note on Values (Synthetic Data)
+The underlying dataset is **synthetically generated**, so absolute spend and utilization levels may not match real-world benchmarks. The intent is to demonstrate **analytics workflow and metric logic**—data modeling, slicer-consistent KPIs (e.g., PMPM), and drilldown behavior—rather than to present calibrated financial results.
+
 ## Screenshots
 ### Overview
 ![Overview](Overview.png)
@@ -18,6 +21,12 @@ An interactive healthcare spend and utilization dashboard built in Excel using *
 ### Demographics
 ![Demographics](Demographics.png)
 
+
+## What This Demonstrates
+- End-to-end Excel analytics product using Power Query + Data Model
+- Star-schema modeling concepts (dimensions/facts, relationship-driven filtering)
+- KPI design for healthcare analytics (PMPM, utilization rates, mix metrics)
+- Executive-ready visuals with consistent slicer behavior across pages
 
 ## Key Insights Surfaced
 This dashboard is designed to surface payer-style insights such as:
@@ -57,8 +66,3 @@ Data is synthetic and modeled after a typical healthcare analytics structure:
 - Excel **Data Model / Power Pivot** (relationships and measures)
 - **PivotCharts** (interactive visuals)
 
-
-## Tools
-- Excel **Power Query** for data ingestion and transformation
-- Excel **Data Model / Power Pivot** for relationships and measures
-- **PivotCharts** for interactive visuals
